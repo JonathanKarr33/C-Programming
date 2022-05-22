@@ -11,7 +11,7 @@ int main(){
         break;
     case 1:
         printf("You have one item.\n");
-        break;;
+        break;
     case 2:
         printf("You have two items.\n");
         break;
