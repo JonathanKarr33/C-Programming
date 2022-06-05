@@ -16,5 +16,10 @@ int main(){
         }
         printf("\n");
     }
+    char world[50] = "World";
+    char hello_world[50] = "Hello ";
+    strcat(hello_world, world);
+    printf("The result is: %s\n",hello_world);
+    printf("The length of the string is %lu\n",strlen(hello_world));
     return  0;
 }
